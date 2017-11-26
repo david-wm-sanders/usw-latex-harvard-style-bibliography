@@ -7,7 +7,7 @@
 %% merlin.mbs  (with options: `ay,nat,nm-rev,ed-rev,jnrlst,jnrlab,keyxyr,dt-beg,yr-par,note-yr,tit-it,atit-u,volp-com,pgsep-c,jwdpg,num-xser,ser-vol,add-pub,isbn,issn,doi,edparxc,pp,ed,abr,xedn,etal-xc,etal-it,eprint,url,url-blk,nfss,')
 %% ----------------------------------------
 %% *** University of South Wales Harvard Referencing Style ***
-%% 
+%%
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
  % IMPORTANT NOTICE:
@@ -1594,7 +1594,7 @@ FUNCTION {begin.bib}
   write$ newline$
   "\providecommand{\url}[1]{\texttt{#1}}"
   write$ newline$
-  "\providecommand{\urlprefix}{URL }"
+  "\providecommand{\urlprefix}{\newline Available at: }"
   write$ newline$
   "\expandafter\ifx\csname urlstyle\endcsname\relax"
   write$ newline$
