@@ -1009,6 +1009,8 @@ FUNCTION {book}
   format.date "year" output.check
   date.block
   format.btitle "title" output.check
+  new.block
+  format.edition output
   crossref missing$
     { format.bvolume output
       new.block
@@ -1021,7 +1023,6 @@ FUNCTION {book}
       format.book.crossref output.nonnull
     }
   if$
-  format.edition output
   format.isbn output
   format.doi output
   new.block
